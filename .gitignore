@@ -1,0 +1,20 @@
+git clone /path/to/repository 
+git add <filename>
+git add *
+git commit -m "代码提交信息"
+ git push origin master
+git pull
+ git remote add origin <server> 
+ git branch 1a
+ git checkout 1a
+ git push origin 1a
+ git init
+git add .
+git commit -m "init"
+ git remote add origin http://git.toscl.com/git/editor.git
+git push origin master // 添加远程仓库后，即可提交到远程仓库
+ git fetch origin    //获取远程更新
+git merge origin/master //把更新的内容合并到本地分支
+git push origin master
+ git config --global credential.helper store // 存储记录
+ git checkout 1a

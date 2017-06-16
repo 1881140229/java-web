@@ -1,8 +1,4 @@
-package com.krieg;
-
-/**
- * Created by Krieg on 2017/6/10.
- */
+package com.Xing;
 import java.sql.*;
 public class DBBean {
     private String driverStr = "com.mysql.jdbc.Driver";//数据库驱动

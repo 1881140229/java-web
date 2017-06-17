@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Krieg
-  Date: 2017/6/11
-  Time: 15:20
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page language="java" import="java.sql.*" pageEncoding="gb2312" %>
 <%@ page contentType="text/html;charset=gb2312"%>
 <html>
@@ -40,42 +34,42 @@
     <tr>
         <th>
             <%
-                out.print("学号");
+                out.print("瀛﹀彿");
             %>
         </th>
         <th>
             <%
-                out.print("姓名");
+                out.print("濮撳悕");
             %>
         </th>
         <th>
             <%
-                out.print("性别");
+                out.print("鎬у埆");
             %>
         </th>
         <th>
             <%
-                out.print("出生日期");
+                out.print("鍑虹敓鏃ユ湡");
             %>
         </th>
         <th>
             <%
-                out.print("入学年份");
+                out.print("鍏ュ骞翠唤");
             %>
         </th>
         <th>
             <%
-                out.print("学院");
+                out.print("瀛﹂櫌");
             %>
         </th>
         <th>
             <%
-                out.print("专业");
+                out.print("涓撲笟");
             %>
         </th>
         <th>
             <%
-                out.print("籍贯");
+                out.print("绫嶈疮");
             %>
         </th>
     </tr>
@@ -126,14 +120,14 @@
         }
      else
         {
-            out.print("<script language='javascript' type='text/javascript'>alert(\"查无此人！\");</script>");
+            out.print("<script language='javascript' type='text/javascript'>alert(\"鏌ユ棤姝や汉锛乗");</script>");
         response.setHeader("refresh", "0;url=../search.jsp");
         }
         %>
 
 <div align="center">
     <br> <br> <br>
-    <a href="../search.jsp">返回</a>
+    <a href="../search.jsp">杩斿洖</a>
 </div>
 <%
     rs.close();

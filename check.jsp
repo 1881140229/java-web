@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Krieg
-  Date: 2017/6/10
-  Time: 16:17
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page import="java.sql.*" language="java" contentType="text/html; charset=utf-8"
          pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">

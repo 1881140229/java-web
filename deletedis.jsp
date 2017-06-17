@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Krieg
-  Date: 2017/6/11
-  Time: 17:40
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page language="java" import="java.sql.*" pageEncoding="gb2312" %>
 <%@ page contentType="text/html;charset=gb2312"%>
 <html>
@@ -21,9 +15,9 @@
         }
     </style>
     <%--<script>--%>
-        <%--//«Âø’¿∏ƒøÃ· æ»∑»œøÚ--%>
+        <%--//Ê∏ÖÁ©∫Ê†èÁõÆÊèêÁ§∫Á°ÆËÆ§Ê°Ü--%>
         <%--function confirm_delete(){--%>
-            <%--if (confirm("»∑»œ“™…æ≥˝±æÃı–≈œ¢£°")){--%>
+            <%--if (confirm("Á°ÆËÆ§Ë¶ÅÂà†Èô§Êú¨Êù°‰ø°ÊÅØÔºÅ")){--%>
                 <%----%>
 
                 <%--return true;--%>
@@ -45,7 +39,7 @@
 
 <%
     if (rs==1) {
-        out.print("<script language='javascript' type='text/javascript'>alert(\"…æ≥˝≥…π¶£°\");</script>");
+        out.print("<script language='javascript' type='text/javascript'>alert(\"Âà†Èô§ÊàêÂäüÔºÅ\");</script>");
         response.setHeader("refresh","0;url=../delete.jsp");
     }
 %>
@@ -55,42 +49,42 @@
     <%--<tr>--%>
         <%--<th>--%>
             <%--<%--%>
-                <%--out.print("—ß∫≈");--%>
+                <%--out.print("Â≠¶Âè∑");--%>
             <%--%>--%>
         <%--</th>--%>
         <%--<th>--%>
             <%--<%--%>
-                <%--out.print("–’√˚");--%>
+                <%--out.print("ÂßìÂêç");--%>
             <%--%>--%>
         <%--</th>--%>
         <%--<th>--%>
             <%--<%--%>
-                <%--out.print("–‘±");--%>
+                <%--out.print("ÊÄßÂà´");--%>
             <%--%>--%>
         <%--</th>--%>
         <%--<th>--%>
             <%--<%--%>
-                <%--out.print("≥ˆ…˙»’∆⁄");--%>
+                <%--out.print("Âá∫ÁîüÊó•Êúü");--%>
             <%--%>--%>
         <%--</th>--%>
         <%--<th>--%>
             <%--<%--%>
-                <%--out.print("»Î—ßƒÍ∑›");--%>
+                <%--out.print("ÂÖ•Â≠¶Âπ¥‰ªΩ");--%>
             <%--%>--%>
         <%--</th>--%>
         <%--<th>--%>
             <%--<%--%>
-                <%--out.print("—ß‘∫");--%>
+                <%--out.print("Â≠¶Èô¢");--%>
             <%--%>--%>
         <%--</th>--%>
         <%--<th>--%>
             <%--<%--%>
-                <%--out.print("◊®“µ");--%>
+                <%--out.print("‰∏ì‰∏ö");--%>
             <%--%>--%>
         <%--</th>--%>
         <%--<th>--%>
             <%--<%--%>
-                <%--out.print("Àﬁ…·Œª÷√");--%>
+                <%--out.print("ÂÆøËàç‰ΩçÁΩÆ");--%>
             <%--%>--%>
         <%--</th>--%>
     <%--</tr>--%>
@@ -141,18 +135,18 @@
     <%--}--%>
     <%--else--%>
     <%--{--%>
-        <%--out.print("<script language='javascript' type='text/javascript'>alert(\"≤ÈŒﬁ¥À»À£°\");</script>");--%>
+        <%--out.print("<script language='javascript' type='text/javascript'>alert(\"Êü•Êó†Ê≠§‰∫∫ÔºÅ\");</script>");--%>
         <%--response.setHeader("refresh", "0;url=../search.jsp");--%>
     <%--}--%>
 <%--%>--%>
 
 <%--<div align="center">--%>
     <%--<br> <br> <br>--%>
-    <%--<a href="javascript:if(confirm('»∑∂®“™…æ≥˝∏√Õ¨—ßµƒ–≈œ¢¬£ø'))location='data/deletedata.jsp'"><input type="button"  value="…æ≥˝" style="color: #ff4a40"></a>--%>
+    <%--<a href="javascript:if(confirm('Á°ÆÂÆöË¶ÅÂà†Èô§ËØ•ÂêåÂ≠¶ÁöÑ‰ø°ÊÅØÂêóÔºü'))location='data/deletedata.jsp'"><input type="button"  value="Âà†Èô§" style="color: #ff4a40"></a>--%>
     <%--<%--%>
 
     <%--%>--%>
-    <%--<a href="../delete.jsp"><input type="button" value="∑µªÿ" style="color: aliceblue"></a>--%>
+    <%--<a href="../delete.jsp"><input type="button" value="ËøîÂõû" style="color: aliceblue"></a>--%>
 <%--</div>--%>
 
 <%
